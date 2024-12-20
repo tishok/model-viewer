@@ -1,5 +1,6 @@
 {
-  "name": "model-viewer-packages",
+  "name": "@tishok/model-viewer",
+  "version": "4.0.0",
   "private": true,
   "description": "The repository for all <model-viewer> packages",
   "scripts": {
