@@ -1,6 +1,9 @@
 {
   "name": "@tishok/model-viewer",
   "version": "4.0.0",
+  "publishConfig": {
+    "access": "public"
+  },
   "description": "The repository for all <model-viewer> packages",
   "scripts": {
     "test": "npm run test --workspaces",
