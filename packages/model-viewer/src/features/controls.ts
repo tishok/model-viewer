@@ -495,6 +495,19 @@ export const ControlsMixin = <T extends Constructor<ModelViewerElementBase>>(
           this[$onPointerChange] as (event: Event) => void);
     }
 
+    /** VARGATES */
+
+    enableControls() {
+      this[$controls].orbitSensitivity = 1;
+      this[$controls].zoomSensitivity = 1;
+    }
+    disableControls() {
+      this[$controls].orbitSensitivity = 0;
+      this[$controls].zoomSensitivity = 0;
+    }
+    
+    /** VARGATES */
+
     updated(changedProperties: Map<string|number|symbol, unknown>) {
       super.updated(changedProperties);
 

@@ -219,6 +219,14 @@ export default class ModelViewerElementBase extends ReactiveElement {
     return this[$getLoaded]();
   }
 
+  /** VARGATES */
+
+  get scene() {
+    return this[$scene];
+  }
+
+  /** VARGATES */
+
   get[$renderer]() {
     return Renderer.singleton;
   }
